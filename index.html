@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>David Theuri</title>
+    <script src="https://kit.fontawesome.com/a7d2467fa8.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="./anonymous.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <span class="logo">David</span>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <!-- <img src="light-theme/sun.png" alt="" id="icon"> -->
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>David</span><br>from Kenya</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------About Me-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/user.png" alt=""> -->
+                    <img src="images/about-me.webp" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        A motivated individual with a profound knowledge of languages and development tools. Passionate
+                        to learn and contribute to innovative software solutions fostering teamwork while empowering
+                        others to address societal challenges. Committed to honing skills,
+                        staying aware of the latest industry trends, and contributing to organizational growth while
+                        nurturing my own professional development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Proficient in developing web applications with a focus
+                                on front-end and back-end technologies.</li>
+                            <li><span>Web Design</span><br>Creating visually appealing and user-friendly website designs
+                                to enhance user experience.</li>
+                            <li><span>UI/UX Designer</span><br>Crafting intuitive user interfaces & optimizing user
+                                experiences through design principles.</li>
+                            <li><span>Academic Writer</span><br>Adept at producing well-researched and structured
+                                academic content.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer Intern at Farwell Innovations Limited</span><br>June 2023 – Sep 2023
+                            </li>
+                            <li><span>Free Lancing</span><br>Developing Web Applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>BSC Computer Science | Multimedia University of Kenya,
+                                    Nairobi
+                                </span><br> AUGUST 2021- APRIL 2025 | Ongoing
+                            </li>
+                            <li><span>Utumishi Boys Academy, Nakuru</span><br>JANUARY 2017 – APRIL 2021 | KCSE: A-</li>
+                            <li><span>Chrisco Academy</span><br>JANUARY 2009 - NOVEMBER 2016 | KCPE: 391</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interests">
+                        <ul>
+                            <li>Playing Chess</li>
+                            <li>Swimming</li>
+                            <li>Reading Novels</li>
+                            <li>Playing Basketball</li>
+                            <li>Art (Culinary Arts & Drawing)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div class="">
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development services tailored to create efficient and innovative solutions. Harnessing the
+                        power of technology to build websites and web applications that exceed your expectations.
+                        Dedicated to providing a seamless user experience,
+                        incorporating latest industry standards and best practices. Whether it's e-commerce, content
+                        management, or custom web solutions, I got you covered and ready to help you turn your ideas
+                        into reality.</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+
+                <div class="">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafting visually stunning and user-friendly websites. Combining creativity, art and technology
+                        to deliver exceptional design concepts that leave a lasting impression. We pay attention to
+                        every detail, from layout and color schemes
+                        to typography and graphics. With a focus on responsive design, ensuring your website looks great
+                        on all devices, elevating your online presence with top-tier web design services.
+                    </p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+
+                <div class="">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Freelancing</h2>
+                    <p>As a freelancers, I bring a wealth of experience and expertise to your projects. Offering a wide
+                        range of services, from content creation to academic papers to graphic design, and everything in
+                        between. With a flexible approach, adapting
+                        to your unique requirements to deliver high-quality work. Collaboration and communication at the
+                        core of my services, ensuring that your vision is brought to life. Let's work together to
+                        achieve your goals.</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Portfolio-------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Erevuka eLearning</h3>
+                        <p>An eLearning platform where you can purchase courses and learn online</p>
+                        <a href="https://erevuka.org" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3> Queen Dee Weddings</h3>
+                        <p>Responsive Wedding Photography Website with optimized images for faster loading speeds.</p>
+                        <a href="https://queendeeweddings.co.ke" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Chess AI</h3>
+                        <p>Chess was my favorite board game growing up. Once I learned Python, I could not help but
+                            create my own game of chess.</p>
+                        <a href="https://github.com/iamtheuri/chess" target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/iamtheuri" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ----------Contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a
+                            href="mailto:theuridavid56@gmail.com">theuridavid56@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="#contact-me">0798959256</a></p>
+                    <div class="social-icons">
+                        <a href="https://github.com/iamtheuri" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/david-theuri/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/iamtheuri_/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/DavidTh14899574" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right" id="contact-me">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea rows="6" name="Message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx-wlDfGBS0URMdKPZpqxVfzyXF5xPyD1aLSD-KRlEcTV90zzVXQjRkQE7A1ArnTqMXrQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+            document.body.classList.toggle("light-theme");
+            if (document.body.classList.contains(light - theme)) {
+                icon.src = "light-theme/moon.png";
+            } else {
+                icon.src = "light-theme/sun.png"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
